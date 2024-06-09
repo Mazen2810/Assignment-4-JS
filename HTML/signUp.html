@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="home">
+        <div class="login-card">
+<h1>Smart Login System</h1>
+<input type="text" class="input form-control  inputValid m-auto mt-3" id="userSignupName" placeholder="Enter your name">
+<input type="email" class="form-control  inputValid m-auto mt-3" id="userSignupEmail" placeholder="Enter your email">
+<div class="alert alert-info d-none justify-content-center mx-auto my-2 w-50 p-2">
+    <small> Email is not valid
+      
+    </small>
+
+  </div>
+<input type="password" class="form-control  inputValid m-auto mt-3" id="userSignupPass" placeholder="Enter your password">
+<div class="alert alert-info d-none  justify-content-center mx-auto my-2 w-50 p-2">
+    <small> Password is not valid, Password must be contain:
+       <br> - Minimum eight characters <br> - at least one upper case English letter <br> - one lower case English letter <br> - one number <br> - one special character</small>
+
+  </div>
+<div id="alertMsg">
+    
+</div>
+   
+
+<button class="btn login-btn" id="signUpBtn">Sign Up</button>
+<p class="txt">You have an account? <a href="login.html" id="signUp">Sign in</a></p>
+</div>
+    </div>
+    <script src="../JS/signup.js"></script>
+</body>
+</html>
