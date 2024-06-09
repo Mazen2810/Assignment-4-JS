@@ -79,4 +79,3 @@ function incorrectInput() {
 
     document.getElementById('alertMsg').innerHTML = incInp;
 }
-
